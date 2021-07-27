@@ -8,18 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		6119329426A1C4B70084CD00 /* StaggeredGridApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6119329326A1C4B70084CD00 /* StaggeredGridApp.swift */; };
-		6119329626A1C4B70084CD00 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6119329526A1C4B70084CD00 /* ContentView.swift */; };
+		6119329626A1C4B70084CD00 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6119329526A1C4B70084CD00 /* Home.swift */; };
 		6119329826A1C4B90084CD00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6119329726A1C4B90084CD00 /* Assets.xcassets */; };
 		6119329B26A1C4B90084CD00 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6119329A26A1C4B90084CD00 /* Preview Assets.xcassets */; };
+		61BAD40726AFED0100E0166B /* StaggeredGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61BAD40626AFED0100E0166B /* StaggeredGrid.swift */; };
+		61BAD40A26AFEE8F00E0166B /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61BAD40926AFEE8F00E0166B /* Post.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6119329026A1C4B70084CD00 /* StaggeredGrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StaggeredGrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6119329326A1C4B70084CD00 /* StaggeredGridApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaggeredGridApp.swift; sourceTree = "<group>"; };
-		6119329526A1C4B70084CD00 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6119329526A1C4B70084CD00 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		6119329726A1C4B90084CD00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6119329A26A1C4B90084CD00 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6119329C26A1C4B90084CD00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61BAD40626AFED0100E0166B /* StaggeredGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaggeredGrid.swift; sourceTree = "<group>"; };
+		61BAD40926AFEE8F00E0166B /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +56,9 @@
 		6119329226A1C4B70084CD00 /* StaggeredGrid */ = {
 			isa = PBXGroup;
 			children = (
+				61BAD40826AFEE7100E0166B /* Model */,
+				61BAD40526AFEC1900E0166B /* view */,
 				6119329326A1C4B70084CD00 /* StaggeredGridApp.swift */,
-				6119329526A1C4B70084CD00 /* ContentView.swift */,
 				6119329726A1C4B90084CD00 /* Assets.xcassets */,
 				6119329C26A1C4B90084CD00 /* Info.plist */,
 				6119329926A1C4B90084CD00 /* Preview Content */,
@@ -67,6 +72,23 @@
 				6119329A26A1C4B90084CD00 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		61BAD40526AFEC1900E0166B /* view */ = {
+			isa = PBXGroup;
+			children = (
+				6119329526A1C4B70084CD00 /* Home.swift */,
+				61BAD40626AFED0100E0166B /* StaggeredGrid.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		61BAD40826AFEE7100E0166B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				61BAD40926AFEE8F00E0166B /* Post.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +160,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6119329626A1C4B70084CD00 /* ContentView.swift in Sources */,
+				6119329626A1C4B70084CD00 /* Home.swift in Sources */,
 				6119329426A1C4B70084CD00 /* StaggeredGridApp.swift in Sources */,
+				61BAD40726AFED0100E0166B /* StaggeredGrid.swift in Sources */,
+				61BAD40A26AFEE8F00E0166B /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
